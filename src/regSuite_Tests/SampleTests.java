@@ -21,41 +21,5 @@ public class SampleTests extends BaseSuite {
 		homepage.searchBook(bookName);
 		homepage.assertSearchTitle();
 	}
-	
-	@Test(priority=1)
-	public void testSample(){
-		System.out.println("Sale!");
-	}
-	
-	@Test
-	public void printName12() {
-		System.out.println("Preethi12");
-	}
-	
-	@Test
-	public void buyOnline() {
-		System.out.println("Chocolate");
-	}
-	
-	@Test
-	public void payOnline() {
-		System.out.println("Money");
-	}
-	
-	@Test
-	public void payOnline1() {
-		System.out.println("Money");
-	}
-	
-	@Test
-	public void payOnline2() {
-		System.out.println("Money");
-	}
-	
-	@Test
-	public void printName13() {
-		System.out.println("Preethi12");
-	}
-	
 
 }

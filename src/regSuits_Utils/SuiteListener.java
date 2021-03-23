@@ -10,7 +10,7 @@ import org.testng.ISuiteListener;
 
 public class SuiteListener implements ISuiteListener {
 	static Logger log = Logger.getLogger(SuiteListener.class.getName());
-	String filePath = System.getProperty("user.dir")+"\\Screenshots\\";
+	String filePath = System.getProperty("user.dir")+"//Screenshots//";
 	File file = new File(filePath);
 	@Override
     public void onStart(ISuite suite) {

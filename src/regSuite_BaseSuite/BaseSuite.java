@@ -55,12 +55,12 @@ public class BaseSuite implements ISeleniumTest
 			browserType = dataFile.getData("browser");		
 			if(browserType.equalsIgnoreCase("Chrome")){
 				System.out.println("Launching Chrome Browser");
-				System.setProperty("webdriver.chrome.driver",path+"//lib//chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver",path+"//lib//chromedriver");
 				driver = new ChromeDriver();
 			}
 			else if(browserType.equalsIgnoreCase("Firefox") ){
 				System.out.println("Launching Firefox Browser");
-				System.setProperty("webdriver.gecko.driver",path+"//lib//geckodriver.exe");
+				System.setProperty("webdriver.gecko.driver",path+"//lib//geckodriver");
 				driver = new FirefoxDriver();
 			}
 		} catch (Exception e) {
