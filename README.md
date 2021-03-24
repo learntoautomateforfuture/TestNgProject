@@ -23,3 +23,6 @@ Download maven from http://maven.apache.org/download.cgi apache-maven-3.6.3-bi
   Eclipse will then guide you through the process.
   Add TestNG Library in Build path
 
+# Donwload drivers
+Chrome - https://chromedriver.chromium.org/
+Firefox - https://github.com/mozilla/geckodriver/releases/tag/v0.27.0
